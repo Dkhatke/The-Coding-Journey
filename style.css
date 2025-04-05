@@ -1,0 +1,82 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f8f9fa;
+  }
+  .navbar {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  .hero {
+    padding: 60px 0;
+    background: linear-gradient(to right, #007bff, #6610f2);
+    color: white;
+    text-align: center;
+    
+  }
+  section {
+    scroll-margin-top: 50px; /* Adjust based on your navbar height */
+  }
+  .img2 img {
+    max-width: 100%;
+    height: auto;
+  }
+  .img2 {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  
+  .b1{
+  background-color: #007bff;
+  }
+ /* Rename or remove your custom container rule */
+.container-custom {
+    height: 50px; /* if needed */
+  }
+.imgc{
+    margin-left: 100px;
+    padding: 10px;
+}  
+  .container2{
+    height: 400px;
+    padding-top: 100px;
+  }
+  .hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  .card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+  }
+  #courses, #testimonials, #newsletter, #about {
+    scroll-margin-top: 80px;
+  }
+  
+  #courses, #testimonials, #newsletter {
+    padding: 60px 0;
+    
+  }
+  #icon {
+    padding: 10px;
+    margin-left: 450px;
+  }
+  #f{
+    font-style: normal;
+  }
+  .testimonial {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    text-align: center;
+  }
+  footer {
+    background: #222;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
